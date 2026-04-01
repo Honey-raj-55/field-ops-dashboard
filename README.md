@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FieldOps Dashboard
 
-## Getting Started
+FieldOps Dashboard is a construction operations dashboard built with Next.js, TypeScript, and Tailwind CSS. It is designed to feel like a real internal management suite used by site teams to monitor equipment, track field activity, and manage day-to-day operations from one clean interface.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Why I built this
+
+Construction teams deal with multiple moving parts — equipment availability, maintenance, site coordination, and reporting. I wanted to build a dashboard that presents all of this in a structured and simple way, with the look and feel of a modern SaaS product rather than a basic admin panel.
+
+---
+
+## Features
+
+### Equipment Tracking
+
+* View equipment by ID, name, site, and status
+* Instant search across all fields
+* Maintenance filter (repair-only mode)
+* Status summaries (Ready / In Use / Repair)
+
+### Settings & Profile
+
+* Profile UI with role context (Site Manager)
+* Notification toggle and preferences
+* Language and workspace settings
+
+### Dashboard UI
+
+* Clean card-based layout
+* Consistent spacing and typography
+* Responsive and minimal design
+
+---
+
+## Tech Stack
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+
+---
+
+## Project Structure
+
+```
+app/
+components/
+public/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Local Setup
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm install
+npm run dev
+```
 
-## Learn More
+Open: http://localhost:3000
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## What I focused on
 
-## Deploy on Vercel
+This project focuses on building a realistic product experience. The goal was not just functionality, but making the UI feel like a real construction management tool with clear structure, spacing, and usability.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Future Improvements
+
+* Add charts for equipment utilization
+* Connect to backend / API
+* Add authentication and roles
+* Add reporting and activity logs
+* Dark mode
+
+---
+
+## Author
+
+Honey Raj
+MS Computer Science, SMU
+Aspiring Data Engineer / Full-Stack Developer
+
+---
+
+## Note
+
+This project is actively being improved with additional features and UI refinements to make it closer to a real-world operations platform.
