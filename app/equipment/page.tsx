@@ -70,9 +70,9 @@ export default function EquipmentPage() {
   const statuses: Status[] = ['Ready', 'In Use', 'Repair'];
 
   return (
-    <div className="px-8 py-8">
+    <div className="px-8 py-6">
       {/* Page Header */}
-      <div className="mb-8 flex items-center justify-between">
+      <div className="mb-6 flex items-center justify-between">
         <div>
           <h2 className="text-2xl font-extrabold tracking-tight text-slate-800">
             Equipment Tracker
@@ -93,7 +93,7 @@ export default function EquipmentPage() {
       </div>
 
       {/* Summary Stat Cards */}
-      <div className="mb-8 grid grid-cols-1 gap-4 md:grid-cols-3">
+      <div className="mb-6 grid grid-cols-1 gap-4 md:grid-cols-3">
         {statuses.map((s) => (
           <div
             key={s}
