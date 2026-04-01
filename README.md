@@ -83,8 +83,6 @@ This project focuses on building a realistic product experience. The goal was no
 ## Author
 
 Honey Raj
-MS Computer Science, SMU
-Aspiring Data Engineer / Full-Stack Developer
 
 ---
 
